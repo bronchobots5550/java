@@ -88,7 +88,7 @@ public class Robot extends IterativeRobot {
 	private final Object imgLock = new Object();
 	public AHRS gyro; // REAL BOT
 	// public AnalogGyro gyro; // PRACTICE BOT
-	int selected_Routine = 9;
+	int selected_Routine = 0;
 
 	public String gameData;
 
